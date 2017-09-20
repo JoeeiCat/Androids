@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Androids</string>
+    <string name="title_activity_broadcast">Broadcast</string>
+    <string name="title_activity_imagedown">Imagedown</string>
+</resources>
