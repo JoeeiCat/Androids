@@ -73,6 +73,7 @@ public class Services extends AppCompatActivity {
         public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
             BundleService.MyBinder binder = (BundleService.MyBinder)iBinder;
             BundleService bindService = binder.getService();
+            bindService.playMusic(Environment.getExternalStorageDirectory().getAbsolutePath()+"/Timor.mp3");
         }
 
         @Override
