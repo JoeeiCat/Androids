@@ -63,7 +63,8 @@ public class Services extends AppCompatActivity {
         btnBindStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(Services.this,BundleService.class);
+                bindService(intent,conn,BIND_AUTO_CREATE);
             }
         });
     }
