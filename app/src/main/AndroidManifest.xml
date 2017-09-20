@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ios12.androids">
 
+    <!-- 添加读写权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 添加网络操作权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +25,7 @@
         <!-- </intent-filter> -->
         <!-- </receiver> -->
 
-        <activity android:name=".Imagedown">
+        <activity android:name=".Services">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,10 +36,27 @@
         <!-- android:name=".Broadcast" -->
         <!-- android:label="@string/title_activity_broadcast" -->
         <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
-        <!--<activity-->
-            <!--android:name=".Imagedown"-->
-            <!--android:label="@string/title_activity_imagedown"-->
-            <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
+        <!-- <activity -->
+        <!-- android:name=".Imagedown" -->
+        <!-- android:label="@string/title_activity_imagedown" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".Services" -->
+        <!-- android:label="@string/title_activity_services" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <!-- <service -->
+        <!-- android:name=".MyIntentService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"/> -->
+        <service
+            android:name=".BundleService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>

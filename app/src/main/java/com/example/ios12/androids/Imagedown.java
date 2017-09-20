@@ -58,7 +58,14 @@ public class Imagedown extends AppCompatActivity {
      * @param imgPath   图片的URL地址
      */
     public void downImage(String imgPath){
+        try{
+            if (sdCardCheck()){
 
+            }
+        }
+        catch (Exception ex){
+            show(ex.getMessage());
+        }
     }
 
 
