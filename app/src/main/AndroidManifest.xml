@@ -6,8 +6,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!-- 添加网络操作权限 -->
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -25,7 +24,7 @@
         <!-- </intent-filter> -->
         <!-- </receiver> -->
 
-        <activity android:name=".Services">
+        <activity android:name=".HttpRequest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -56,7 +55,20 @@
         <service
             android:name=".BundleService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <!-- <activity -->
+        <!-- android:name=".HandleStudy" -->
+        <!-- android:label="@string/title_activity_handle_study" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".DownloadByThread" -->
+        <!-- android:label="@string/title_activity_download_by_thread" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!--<activity-->
+            <!--android:name=".HttpRequest"-->
+            <!--android:label="@string/title_activity_http_request"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
     </application>
 
 </manifest>

@@ -3,4 +3,7 @@
     <string name="title_activity_broadcast">Broadcast</string>
     <string name="title_activity_imagedown">Imagedown</string>
     <string name="title_activity_services">Services</string>
+    <string name="title_activity_handle_study">HandleStudy</string>
+    <string name="title_activity_download_by_thread">DownloadByThread</string>
+    <string name="title_activity_http_request">HttpRequest</string>
 </resources>
