@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
 
         <!-- 注册广播 静态注册 -->
         <!-- <receiver android:name="MyBroadcast"> -->
@@ -24,7 +24,7 @@
         <!-- </intent-filter> -->
         <!-- </receiver> -->
 
-        <activity android:name=".HttpRequest">
+        <activity android:name=".WebViewStudy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -65,9 +65,25 @@
         <!-- android:name=".DownloadByThread" -->
         <!-- android:label="@string/title_activity_download_by_thread" -->
         <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".HttpRequest" -->
+        <!-- android:label="@string/title_activity_http_request" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".ListViewOnICON" -->
+        <!-- android:label="@string/title_activity_list_view_on_icon" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".Gridview" -->
+        <!-- android:label="@string/title_activity_gridview" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".home" -->
+        <!-- android:label="@string/title_activity_home" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
         <!--<activity-->
-            <!--android:name=".HttpRequest"-->
-            <!--android:label="@string/title_activity_http_request"-->
+            <!--android:name=".WebViewStudy"-->
+            <!--android:label="@string/title_activity_web_view_study"-->
             <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
     </application>
 

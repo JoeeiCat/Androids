@@ -6,4 +6,8 @@
     <string name="title_activity_handle_study">HandleStudy</string>
     <string name="title_activity_download_by_thread">DownloadByThread</string>
     <string name="title_activity_http_request">HttpRequest</string>
+    <string name="title_activity_list_view_on_icon">ListViewOnICON</string>
+    <string name="title_activity_gridview">Gridview</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_activity_web_view_study">WebViewStudy</string>
 </resources>

@@ -12,4 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_showRequest"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过HttpCilent获取请求"
+        android:id="@+id/btn_getReuqest2"/>
 </LinearLayout>
