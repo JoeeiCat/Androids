@@ -10,4 +10,8 @@
     <string name="title_activity_gridview">Gridview</string>
     <string name="title_activity_home">home</string>
     <string name="title_activity_web_view_study">WebViewStudy</string>
+    <string name="title_activity_camera_study">CameraStudy</string>
+    <string name="title_activity_draw_study">DrawStudy</string>
+    <string name="title_activity_player_study">PlayerStudy</string>
+    <string name="title_activity_transition">Transition</string>
 </resources>

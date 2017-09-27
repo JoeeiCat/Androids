@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!-- 添加网络操作权限 -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 添加摄像头操作权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +26,7 @@
         <!-- </intent-filter> -->
         <!-- </receiver> -->
 
-        <activity android:name=".WebViewStudy">
+        <activity android:name=".DrawStudy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -81,9 +83,29 @@
         <!-- android:name=".home" -->
         <!-- android:label="@string/title_activity_home" -->
         <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".WebViewStudy" -->
+        <!-- android:label="@string/title_activity_web_view_study" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".CameraStudy" -->
+        <!-- android:label="@string/title_activity_camera_study" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+
+        <!-- 画图工具类 -->
+        <!-- <activity -->
+        <!-- android:name=".DrawStudy" -->
+        <!-- android:label="@string/title_activity_draw_study" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+        <!-- <activity -->
+        <!-- android:name=".PlayerStudy" -->
+        <!-- android:label="@string/title_activity_player_study" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
+
+        <!--运动动画-->
         <!--<activity-->
-            <!--android:name=".WebViewStudy"-->
-            <!--android:label="@string/title_activity_web_view_study"-->
+            <!--android:name=".Transition"-->
+            <!--android:label="@string/title_activity_transition"-->
             <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
     </application>
 
